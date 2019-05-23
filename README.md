@@ -60,7 +60,27 @@ python3 -m manim example_scenes.py SquareToCircle -pl
 
 
 ## Anaconda Install
+*Prerequisites to execute this command -
 
+1) pip (recursive acronym of Pip Install Python) is a package management system used to install and manage software packages written in Python. 
+```sh
+sudo apt-get install python-pip
+```
+2) Install Virtual Environment. Used to create virtual environment, to install packages and dependencies of multiple projects isolated from each other.
+```sh
+sudo pip install virtualenv
+```
+3) Install virtual environment wrapper About virtual env wrapper
+```sh
+sudo pip install virtualenvwrapper
+```
+After Installing prerequisites you need to bring virtual environment wrapper into action to create virtual environment. Following are the steps -
+
+1) set virtual environment directory in path variable- export WORKON_HOME=(directory you need to save envs)
+
+2) source /usr/local/bin/virtualenvwrapper.sh -p $WORKON_HOME
+
+As mentioned by @Mike, source `which virtualenvwrapper.sh` or which virtualenvwrapper.sh can used to locate virtualenvwrapper.sh file.
 * Install sox and latex as above. 
 * Create a conda environment using `conda env create -f environment.yml`
 * **WINDOWS ONLY** Install `pyreadline` via `pip install pyreadline`. 
