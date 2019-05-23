@@ -12,6 +12,11 @@ Manim runs on python 3.7. You can install it from PyPI via pip
 ```sh
 pip3 install manimlib
 ```
+To install Cairo in Ubuntu:
+```sh
+sudo apt-get install python-cairocffi python3-cairocffi
+```
+
 
 System requirements are [cairo](https://www.cairographics.org), [ffmpeg](https://www.ffmpeg.org), [sox](http://sox.sourceforge.net), [latex](https://www.latex-project.org) (optional, if you want to use LaTeX).
 
